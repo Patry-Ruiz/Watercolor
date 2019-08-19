@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarraSuperiorComponent } from './barra-superior/barra-superior.component';
+import { ContenidoComponent } from './contenido/contenido.component';
+import { PieDePaginaComponent } from './pie-de-pagina/pie-de-pagina.component';
+import { RedesComponent } from './redes/redes.component';
+import { PortadaComponent } from './portada/portada.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarraSuperiorComponent,
+    ContenidoComponent,
+    PieDePaginaComponent,
+    RedesComponent,
+    PortadaComponent
   ],
   imports: [
     BrowserModule,

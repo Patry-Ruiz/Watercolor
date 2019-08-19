@@ -1,0 +1,28 @@
+.social-bar {
+    position: fixed;
+    left: 0;
+    top: 460px;
+    z-index: 2000;
+}
+ .social-bar ul {
+     list-style: none;
+ }
+
+ .social-bar ul li a {
+     display: inline-block;
+     color: aliceblue;
+     background: #000;
+     padding:  10px 15px;
+     text-decoration: none;
+     -o-transition: all 500ms esase;
+ }
+
+ .social-bar ul li .icon-facebook2 {background:#3b5998;}
+ .social-bar ul li .icon-twitter {background:#00abf0;}
+ .social-bar ul li .icon-whatsapp {background:rgb(36, 253, 36);}
+ .social-bar ul li .icon-instagram {background:#fca739;}
+
+ .social-bar ul li a:hover {
+     padding: 10px 30px;
+     background: #000;
+ }
