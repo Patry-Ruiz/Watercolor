@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pie-de-pagina.component.css']
 })
 export class PieDePaginaComponent implements OnInit {
-
+  Anio: number = new Date().getFullYear()
   constructor() { }
 
   ngOnInit() {

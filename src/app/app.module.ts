@@ -8,6 +8,7 @@ import { ContenidoComponent } from './contenido/contenido.component';
 import { PieDePaginaComponent } from './pie-de-pagina/pie-de-pagina.component';
 import { RedesComponent } from './redes/redes.component';
 import { PortadaComponent } from './portada/portada.component';
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PortadaComponent } from './portada/portada.component';
     ContenidoComponent,
     PieDePaginaComponent,
     RedesComponent,
-    PortadaComponent
+    PortadaComponent,
+    PortafolioComponent
   ],
   imports: [
     BrowserModule,
