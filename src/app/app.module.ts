@@ -9,6 +9,8 @@ import { PieDePaginaComponent } from './pie-de-pagina/pie-de-pagina.component';
 import { RedesComponent } from './redes/redes.component';
 import { PortadaComponent } from './portada/portada.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ItemComponent } from './pages/item/item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
     PieDePaginaComponent,
     RedesComponent,
     PortadaComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    AboutComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
